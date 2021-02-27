@@ -4,13 +4,13 @@ on:
   push:
     branches:
     - master
-    
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: thomasattree/mkdocs2S3@master
+    - uses: padraigobrien/mkdocs2S3@master
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
