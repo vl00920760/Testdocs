@@ -1,6 +1,6 @@
 ## Roadie's amazing test on TestDocs
 
-MORE BLAH BLAH BLAH and Shenanigans
+Shenanigans
 
 ## Getting started
 
