@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: padraigobrien/mkdocs2S3@master
+    - uses: roadiehq/mkdocs2S3@master
       with:
         args: --follow-symlinks 
       env:
