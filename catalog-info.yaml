@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Testdocs
+  annotations:
+    github.com/project-slug: vl00920760/Testdocs
+spec:
+  type: other
+  lifecycle: unknown
+  owner: vivek
